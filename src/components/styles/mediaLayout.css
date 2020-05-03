@@ -1,0 +1,81 @@
+@media only screen and (max-width: 801px) {
+    .grid{
+        display: flex;
+        flex-direction: row;
+    }
+
+    button{
+        font-size: .3vw;
+    }
+
+    .fas{
+        font-size: .3vw;
+    }
+
+    #nav{
+        width: 100vw;
+        height: 10vh;
+        display: flex;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 2vw;
+        border-bottom-left-radius: 2vw;
+        flex-direction: column;
+        margin-top: 0;
+        padding-top: 0;
+        position: absolute;
+    }
+
+    nav{
+        display: flex;
+        align-self: flex-end;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-top: -6vw;
+        margin-right: 2vw;
+    }
+
+    .med{
+        border: none;
+        outline: none;
+        width: 5vw;
+        height: 5vw;
+        border-radius: .6vw;
+        margin: .5vw 1vw .5vw 1vw;
+        font-size: .8vw;
+    }
+
+    .logo{
+        display: flex;
+        align-self: flex-start;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-top: -3vw;
+        font-size: .6vw;
+    }
+
+    .normL{
+        display: none;
+    }
+
+    .medLogo{
+        display: block;
+        margin-left: 3vw;
+        margin-top: -2vw;
+
+    }
+
+    h1>.name{
+        font-size: 1.5vw;
+    }
+
+    .icon{
+        font-size: .2vw;
+    }
+
+}
+
+@media only screen and (max-width: 570px) {
+    nav{
+        margin-top: -10vw;
+    }
+}
