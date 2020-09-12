@@ -9,7 +9,7 @@ export default class Home extends React.Component {
                 <h1 className='Header'>Fesshr </h1>
 
                 <p className='about'>
-                    Fesshr is an app designed to fetch some Images and 
+                    Fesshr is an app that is designed to fetch some Images and 
                     books through Calls to some RESTful APIs from the 
                     Internet.
                 </p>
